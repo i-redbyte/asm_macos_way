@@ -1,0 +1,6 @@
+*.o
+*.elf
+*.iso
+*.out
+iso
+config.mk
