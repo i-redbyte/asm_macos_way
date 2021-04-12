@@ -1,3 +1,4 @@
 Watching how to work with assembler in MacOs
 ======
-triangle - simple console output
+Projects:
+- triangle - simple console output (my version hello world)
