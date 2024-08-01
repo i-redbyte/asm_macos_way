@@ -1,9 +1,9 @@
-        global   _main
-        extern   _atoi    ;C function
-        extern   _printf  ;C function
-        default  rel
+global   _main
+extern   _atoi    ; C function
+extern   _printf  ; C function
+default  rel
 
-        section  .text
+section  .text
 _main:
         push     rbx
 
@@ -38,7 +38,7 @@ done:
         pop      rbx
         ret
 
-        section  .data
+section  .data
 count:  dq       0
 sum:    dq       0
 format: db       "%g", 10, 0
