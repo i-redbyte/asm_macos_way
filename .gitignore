@@ -4,3 +4,5 @@
 *.out
 iso
 config.mk
+.idea
+.DS_Store
